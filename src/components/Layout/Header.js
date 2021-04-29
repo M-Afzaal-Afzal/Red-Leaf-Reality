@@ -102,13 +102,13 @@ const Header = () => {
 
                     <Box className={`${classes.grow} ${classes.rightIconsContainer}`}>
                         <Hidden smDown>
-                            <Button className={classes.headerButton} size={'large'} component={Link} to={'home'} smooth={true}>
+                            <Button className={classes.headerButton} size={'large'} component={Link} to={'about'} smooth={true}>
                                 About
                             </Button>
-                            <Button className={classes.headerButton} size={'large'} component={Link} to={'contactus'} smooth={true}>
+                            <Button className={classes.headerButton} size={'large'} component={Link} to={'listings'} smooth={true}>
                                 Listings
                             </Button>
-                            <Button className={classes.headerButton} size={'large'} component={Link} to={'contactus'} smooth={true}>
+                            <Button className={classes.headerButton} size={'large'} component={Link} to={'contact'} smooth={true}>
                                 CONTACT
                             </Button>
 

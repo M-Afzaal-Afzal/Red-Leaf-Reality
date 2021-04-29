@@ -34,30 +34,42 @@ const lightTheme = createMuiTheme({
         fontFamily: 'Times New Roman, sans-serif',
         h1: {
             fontSize: '3.75rem',
+            letterSpacing: '1px',
             // fontFamily: 'Times New Roman',
 
         },
         h2: {
             fontSize: '2.5rem',
+            letterSpacing: '1px',
             // fontFamily: 'Times New Roman',
 
         },
         h3: {
             fontSize: '2rem',
+            letterSpacing: '1px',
             // fontFamily: 'Times New Roman',
 
         },
         h4: {
             fontSize: '1.5rem',
+            letterSpacing: '1px',
             // fontFamily: 'Times New Roman',
 
         },
         h5: {
             fontSize: '1.3rem',
+            letterSpacing: '1px',
         },
         h6: {
             fontSize: '1rem',
+            letterSpacing: '1px',
         },
+        body1: {
+            letterSpacing: '1px',
+        },
+        body2: {
+            letterSpacing: '1px'
+        }
     },
     overrides: {
         MuiCssBaseline: {
