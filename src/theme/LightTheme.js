@@ -23,6 +23,9 @@ const lightTheme = createMuiTheme({
         secondary: {
             main: '#19857b',
         },
+        gray: {
+            main: '#676767'
+        },
         error: {
             main: red.A400,
         },
