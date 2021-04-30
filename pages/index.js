@@ -4,6 +4,7 @@ import HeroSection from "../src/components/HeroSection/HeroSection";
 import FeaturedListings from "../src/components/FeaturedListings/FeaturedListings";
 import TopProducer from "../src/components/TopProducer/TopProducer";
 import Testimonials from "../src/components/Testimonials/Testimonials";
+import ImageGallery from "../src/components/ImageGallery/ImageGallery";
 
 export default function Index() {
     return (
@@ -12,6 +13,7 @@ export default function Index() {
             <FeaturedListings/>
             <TopProducer/>
             <Testimonials/>
+            <ImageGallery/>
         </Box>
     );
 }

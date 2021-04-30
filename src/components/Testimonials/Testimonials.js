@@ -4,7 +4,7 @@ import RemoveIcon from '@material-ui/icons/Remove';
 
 const useStyles = makeStyles(theme => ({
     testimonials: {
-        padding: '8rem 0 2rem',
+        padding: '8rem 0 8rem',
         width: '100%',
         background: '#e2e1e1',
     },
