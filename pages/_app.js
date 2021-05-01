@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
 import '../src/globalStyles/stylesheet.css'
+import { SnackbarProvider } from 'notistack';
 
 import {Provider} from 'react-redux'
 import store from "../src/store/store";
@@ -29,10 +30,11 @@ export default function MyApp(props) {
             {/*   Store provider   */}
             <Provider store={store}>
 
-
+                <SnackbarProvider maxSnack={3}>
                     <Layout>
                         <Component {...pageProps} />
                     </Layout>
+                </SnackbarProvider>
 
 
             </Provider>

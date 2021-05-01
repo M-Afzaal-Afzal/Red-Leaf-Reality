@@ -8,6 +8,7 @@
     "@reduxjs/toolkit": "^1.5.1",
     "clsx": "latest",
     "next": "latest",
+    "notistack": "^1.0.6",
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest",
@@ -19,5 +20,8 @@
     "build": "next build",
     "start": "next start",
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "devDependencies": {
+    "react-hook-form": "^7.3.6"
   }
 }

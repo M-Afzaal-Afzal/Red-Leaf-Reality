@@ -6,6 +6,7 @@ import {makeStyles, Paper} from "@material-ui/core";
 import lightTheme from "../../theme/LightTheme";
 import {ThemeProvider} from '@material-ui/core/styles';
 import CssBaseline from "@material-ui/core/CssBaseline";
+import Footer from "./Footer";
 // import {useSelector} from "react-redux";
 // import {selectIsDarkMode} from "../../store/darkMode/darkModeSlice";
 
@@ -41,7 +42,7 @@ const Layout = ({children}) => {
 
                 {/* in future if we may have footer we will use that */}
 
-                {/*<Footer/>*/}
+                <Footer/>
 
             </ThemeProvider>
 

@@ -35,6 +35,8 @@ const Blogs = () => {
 
     const classes = useStyles();
 
+    // blogs dummy data
+
     const blogs = [
         {
             id: 1,
@@ -100,12 +102,11 @@ const Blogs = () => {
                                     </CardContent>
                                     <CardActions>
                                         <Box style={{padding: '1rem 0'}}>
-                                            <Button size={'lg'}>
+                                            <Button size={'large'}>
                                                 Read More
                                             </Button>
                                         </Box>
                                     </CardActions>
-
 
                                 </Card>
 
